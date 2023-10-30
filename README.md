@@ -9,8 +9,10 @@ It comes with a Makefile to help you to play easily with your future project :
 ```bash
 # List of make commands:
 make
+
 # To build project:
-make init
+make install
+
 # To start app:
 make start
 ```
@@ -23,3 +25,4 @@ For the rest, be curious.
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 - [Docker](https://docs.docker.com/engine/) - Docker installation documentation.
+
