@@ -30,7 +30,7 @@ status:
 	docker ps -f name=$(APP)
 
 start:
-	docker run --name $(APP) --rm --volume="$(PWD):/src" --publish 80:80 --workdir /src -it -d $(IMAGE) yarn run dev
+	docker run --name $(APP) --rm --volume="$(PWD):/src" --publish 3000:3000 --workdir /src -it -d $(IMAGE) yarn run dev
 
 stop:
 	docker stop $(APP)
